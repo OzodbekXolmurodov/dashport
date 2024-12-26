@@ -1,0 +1,139 @@
+.sidebar {
+  width: 264px;
+  height: 100vh;
+  background: linear-gradient(
+    111.84deg,
+    rgba(6, 11, 38, 0.94) 59.3%,
+    rgba(26, 31, 55, 0) 100%
+  );
+  padding: 36px 22px;
+  border-radius: 20px;
+  overflow-x: auto;
+
+  .sidebar__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+
+    .logo {
+      max-width: 135px;
+      width: 100%;
+      height: 14px;
+      margin-bottom: 31px;
+    }
+
+    .sidebar__border {
+      margin-bottom: 22px;
+      width: 100%;
+    }
+
+    .sidebar__group {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: start;
+
+      .sidebar__item {
+        width: 180px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        gap: 15px;
+        cursor: pointer;
+        transition: 0.2s;
+        box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.05);
+
+        background: #1a1f37;
+        .sidebar__icon {
+          background: #0075ff;
+          color: #fff;
+        }
+
+        .sidebar__icon {
+          width: 30px;
+          height: 30px;
+          font-size: 16px;
+          background: #1a1f37;
+          color: #0075ff;
+          border-radius: 12px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: 0.2s;
+        }
+
+        span {
+          font-size: 14px;
+          color: #ffffff;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .account-title {
+      font-size: 16px;
+      color: #ffffff;
+      margin-top: 35px;
+      margin-bottom: 15px;
+    }
+
+    .sidebar__bottom {
+      width: 100%;
+      height: 169px;
+      background-image: url("../../assets/images/img.png");
+      background-size: cover;
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 54px;
+
+      .sidebar__bottom__query {
+        width: 35px;
+        height: 35px;
+        border-radius: 12px;
+        background: #fff;
+        color: #0075ff;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .sidebar__bottom__title {
+        font-size: 14px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 3.5px;
+      }
+
+      .sidebar__bottom__text {
+        font-size: 12px;
+        color: #fff;
+        margin-bottom: 11.5px;
+      }
+
+      .sidebar__bottom__btn {
+        width: 100%;
+        height: 35px;
+        border-radius: 12px;
+        background: linear-gradient(
+          126.97deg,
+          rgba(6, 11, 40, 0.74) 28.26%,
+          rgba(10, 14, 35, 0.71) 91.2%
+        );
+        border: 1px solid transparent;
+        font-size: 10px;
+        color: #fff;
+        font-weight: 700;
+        line-height: 10px;
+        text-align: center;
+      }
+    }
+  }
+}

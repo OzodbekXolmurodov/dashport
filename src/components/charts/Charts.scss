@@ -1,0 +1,41 @@
+.chart__bottom {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.chart__bottom__left {
+  width: 100%;
+  height: 445px;
+  border-radius: 20px;
+  background: linear-gradient(
+    126.97deg,
+    rgba(18, 45, 196, 0.74) 28.26%,
+    rgba(10, 14, 35, 0.71) 91.2%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 28px 21px;
+}
+
+.chart__bottom__right {
+  width: 652px;
+  height: 445px;
+  border-radius: 20px;
+  background: linear-gradient(
+    126.97deg,
+    rgba(23, 48, 187, 0.74) 28.26%,
+    rgba(10, 14, 35, 0.71) 91.2%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 28px 21px;
+}
